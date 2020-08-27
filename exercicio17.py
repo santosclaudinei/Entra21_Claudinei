@@ -12,5 +12,5 @@
 # 
 raio = float(input('Digite o raio que deseja calcular a area do circulo: '))
 pi = 3.14
-area = float(pi * (raio ** 2))
+area = (pi * (raio ** 2))
 print('O raio para base de calculo é {} e a area resultante é {}' .format(raio, area))

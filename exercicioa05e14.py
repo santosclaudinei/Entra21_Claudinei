@@ -6,15 +6,15 @@ numero = int(input('Digite um numero entre 1 e 7: '))
 if ((numero >= 1) or (numero <= 7)):
     if (numero == 1):
         print('O numero digitado foi {}. ele corresponde à SENGUNDA-FEIRA!' .format(numero))
-    if (numero == 2):
+    elif (numero == 2):
         print('O numero digitado foi {}. ele corresponde à TERÇA-FEIRA!' .format(numero))
-    if (numero == 3):
+    elif (numero == 3):
         print('O numero digitado foi {}. ele corresponde à QUARTA-FEIRA!' .format(numero))
-    if (numero == 4):
+    elif (numero == 4):
         print('O numero digitado foi {}. ele corresponde à QUINTA-FEIRA!' .format(numero))
-    if (numero == 5):
+    elif (numero == 5):
         print('O numero digitado foi {}. ele corresponde à SEXTA-FEIRA!' .format(numero))
-    if (numero == 6):
+    elif (numero == 6):
         print('O numero digitado foi {}. ele corresponde ao SABADO!' .format(numero))
-    if (numero == 7):
+    elif (numero == 7):
         print('O numero digitado foi {}. ele corresponde ao DOMINGO!' .format(numero))

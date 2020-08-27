@@ -6,25 +6,25 @@ numero = int(input('Digite um numero entre 1 e 12: '))
 if ((numero >= 1) or (numero <= 12)):
     if (numero == 1):
         print('O numero digitado foi {}. ele corresponde à JANEIRO!' .format(numero))
-    if (numero == 2):
+    elif (numero == 2):
         print('O numero digitado foi {}. ele corresponde à FEVEREIRO!' .format(numero))
-    if (numero == 3):
+    elif (numero == 3):
         print('O numero digitado foi {}. ele corresponde à MARÇO!' .format(numero))
-    if (numero == 4):
+    elif (numero == 4):
         print('O numero digitado foi {}. ele corresponde à ABRIL!' .format(numero))
-    if (numero == 5):
+    elif (numero == 5):
         print('O numero digitado foi {}. ele corresponde à MAIO!' .format(numero))
-    if (numero == 6):
+    elif (numero == 6):
         print('O numero digitado foi {}. ele corresponde ao JUNHO!' .format(numero))
-    if (numero == 7):
+    elif (numero == 7):
         print('O numero digitado foi {}. ele corresponde ao JULHO!' .format(numero))
-    if (numero == 8):
+    elif (numero == 8):
         print('O numero digitado foi {}. ele corresponde ao AGOSTO!' .format(numero))
-    if (numero == 9):
+    elif (numero == 9):
         print('O numero digitado foi {}. ele corresponde ao SETEMBRO!' .format(numero))
-    if (numero == 10):
+    elif (numero == 10):
         print('O numero digitado foi {}. ele corresponde ao OUTUBRO!' .format(numero))
-    if (numero == 11):
+    elif (numero == 11):
         print('O numero digitado foi {}. ele corresponde ao NOVEMBRO!' .format(numero))
-    if (numero == 12):
+    elif (numero == 12):
         print('O numero digitado foi {}. ele corresponde ao DEZEMBRO!' .format(numero))

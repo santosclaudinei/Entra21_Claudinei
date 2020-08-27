@@ -5,9 +5,9 @@
 # de R$ 50000.01 a R$ 100000.00 - 2.5%
 # Acima de R$ 100000.00 - 3.5%
 
-venda_total = float(input('Digite o valor da sua venda total: '))
+venda_total = float(input('Digite o valor da sua venda total: '))                                               #Recebe entrada de dados através do teclado
 
-if(venda_total >= 0) and (venda_total <= 3000.0):
+if(venda_total >= 0) and (venda_total <= 3000.0):                                                               #
     porcentagem = (venda_total * (0/100))
     print('A venda total é R${} e a porcentagem de comissão é R${:.2f}' .format(venda_total, porcentagem))
 if(venda_total > 3000.0) and (venda_total <= 5000.0):
